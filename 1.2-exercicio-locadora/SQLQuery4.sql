@@ -1,0 +1,13 @@
+USE LOCADORA;
+GO
+
+
+INSERT INTO EMPRESA (Nome)
+VALUES ('LocalizaAi'), ('NogueiraCAr');
+GO
+
+SELECT * FROM EMPRESA
+
+INSERT INTO VEICULO(Placa)
+
+

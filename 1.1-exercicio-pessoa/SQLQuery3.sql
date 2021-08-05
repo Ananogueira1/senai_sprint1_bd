@@ -1,0 +1,27 @@
+USE EMPRESA;
+GO
+
+INSERT INTO PESSOA (nomePessoa)
+VALUES ('SAULO'), ('LUCAS');
+GO
+
+SELECT *FROM PESSOA 
+
+INSERT INTO TELEFONE (idPessoa,numeroTelefone)
+VALUES (3, '999') (3,'888') (4, '777')
+GO
+
+SELECT *FROM TELEFONE
+
+INSERT INTO EMAIL(idPessoa, end_email)
+VALUES  (3, 's.santos@gmail.com'),
+(4, 'l.aragao@gmail.com');
+go
+
+INSERT INTO CNH (idPessoa,descricao)
+VALUES (4, '4343')
+
+SELECT * FROM CNH
+SELECT * FROM EMAIL
+SELECT * FROM TELEFONE
+SELECT * FROM PESSOA
