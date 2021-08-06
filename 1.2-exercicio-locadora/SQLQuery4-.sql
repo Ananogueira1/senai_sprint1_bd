@@ -19,7 +19,7 @@ VALUES (1, 'Fiat'), (2, 'GM'), (3, 'bmw');
 GO
 
 INSERT INTO VEICULO(idVeiculo, idModelo, idEmpresa, idPlaca)
-VALUES (1, 1, 1, 'ANL2225'), (1, 2, 1, 'GJH1819'), (3, 3, 2, 'GJH1819')
+VALUES (1, 1, 1, 'ANL2225'), (1, 2, 1, 'GJH1819'), (3, 3s, 2, 'GJH1819')
 GO
 
 INSERT INTO ALUGUEL(idAluguel, idVeiculo, idCliente)
