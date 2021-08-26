@@ -8,7 +8,7 @@ GO
 SELECT *FROM PESSOA 
 
 INSERT INTO TELEFONE (idPessoa,numeroTelefone)
-VALUES (3, '999') (3,'888') (4, '777')
+VALUES (3, '999'), (3,'888'), (4, '777')
 GO
 
 SELECT *FROM TELEFONE
